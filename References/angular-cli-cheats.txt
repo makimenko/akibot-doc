@@ -1,0 +1,3 @@
+ng g component Toolbar --module app.module.ts
+
+ng g service navigation\services\MenuActions --module navigation.module.ts --spec=false
