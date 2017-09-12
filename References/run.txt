@@ -1,0 +1,5 @@
+sudo i2cdetect -y 1
+
+gpio readall
+
+sudo /home/pi/node-v8/bin/node ./start.js
